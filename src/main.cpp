@@ -49,7 +49,7 @@ unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier 
 static const int64_t nTargetTimespan_legacy = nTargetSpacing * nRetarget; // every 50 blocks
 static const int64_t nInterval = nTargetTimespan_legacy / nTargetSpacing;
 
-int64_t nChainStartTime = 1401413188;
+int64_t nChainStartTime = 1401641867;
 int nCoinbaseMaturity = 50;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2539,10 +2539,10 @@ bool LoadBlockIndex(bool fAllowNew)
 
     if (fTestNet)
     {
-        pchMessageStart[0] = 0xa5;
-        pchMessageStart[1] = 0xc2;
-        pchMessageStart[2] = 0xb8;
-        pchMessageStart[3] = 0xea;
+        pchMessageStart[0] = 0xb6;
+        pchMessageStart[1] = 0xa1;
+        pchMessageStart[2] = 0x3f;
+        pchMessageStart[3] = 0x7b;
 
         bnProofOfWorkLimit = bnProofOfWorkLimitTestNet; // 0x0000ffff PoW base target is fixed in testnet
         nStakeMinAge = 20 * 60; // test net min age is 20 min
@@ -2568,7 +2568,7 @@ bool LoadBlockIndex(bool fAllowNew)
         if (!fAllowNew)
             return false;
 
-        const char* pszTimestamp = "CronoCoin Beta V1.0.0";
+        const char* pszTimestamp = "CronoCoin V1.0.1";
         CTransaction txNew;
         txNew.nTime = nChainStartTime;
         txNew.vin.resize(1);
@@ -2582,7 +2582,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nVersion = 1;
         block.nTime    = nChainStartTime;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = 1094283;
+        block.nNonce   = 0;
 		if(fTestNet)
         {
             block.nNonce   = 0;
@@ -2609,7 +2609,7 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("block.nNonce = %u \n", block.nNonce);
 
         //// debug print
-        assert(block.hashMerkleRoot == uint256("0xb56aed25476f249885428287f294af8bbc4d724366cd69ebb5e75d72b75d247c"));
+        assert(block.hashMerkleRoot == uint256("0x"));
         block.print();
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
         assert(block.CheckBlock());
