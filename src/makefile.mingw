@@ -18,7 +18,7 @@
 CXX ?= g++
 
 USE_UPNP:=-
-USE_IPV6:=1
+USE_IPV6:=0
 
 DEPSDIR?=/usr/local
 BOOST_SUFFIX?=-mgw48-mt-s-1_55
@@ -132,7 +132,7 @@ OBJS= \
     obj/zerocoin/Params.o \
     obj/zerocoin/SerialNumberSignatureOfKnowledge.o \
     obj/zerocoin/SpendMetaData.o \
-    obj/zerocoin/ZeroTest.o
+    obj/zerocoin/ZeroTest.o 
 
 all: CronoCoind.exe
 
@@ -147,6 +147,8 @@ obj/txdb-leveldb.o: leveldb/libleveldb.a
 obj/%.o: %.cpp $(HEADERS)
 	g++ -c $(CFLAGS) -o $@ $<
 
+obj/zerocoin/%.o: zerocoin/%.cpp $(HEADERS)
+    g++ -c $(CFLAGS) -o $@ $<
 
 obj/scrypt-x86.o: scrypt-x86.S
 	$(CXX) -c $(xCXXFLAGS) -MMD -o $@ $<
@@ -174,8 +176,18 @@ obj/%.o: %.cpp
 CronoCoind.exe: $(OBJS:obj/%=obj/%)
 	g++ $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
+TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
+
+obj-test/%.o: test/%.cpp $(HEADERS)
+    g++ -c $(TESTDEFS) $(CFLAGS) -o $@ $<    
+
+test_CronoCoind.exe: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+    g++ $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework $(LIBS)    
+
 clean:
-	-del /Q CronoCoind
-	-del /Q obj\*
+	-del /Q CronoCoind.exe test_CronoCoind.exe
+	-del /Q obj\*.*
+    -del /Q obj-test\*.*
+    -del /Q obj\zerocoin\*.*
 
 FORCE:
