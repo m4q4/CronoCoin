@@ -25,7 +25,7 @@ BOOST_SUFFIX?=-mgw48-mt-s-1_55
 
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
- #-I"$(DEPSDIR)/include" \
+ -I"$(DEPSDIR)/include" \
  -I"c:/deps/boost_1_55_0" \
  -I"c:/deps/db-4.8.30.NC/build_unix" \
  -I"c:/deps/miniupnpc-1.8" \
@@ -33,7 +33,7 @@ INCLUDEPATHS= \
 
 LIBPATHS= \
  -L"$(CURDIR)/leveldb" \
- #-L"$(DEPSDIR)/lib" \
+ -L"$(DEPSDIR)/lib" \
  -L"c:/deps/boost_1_55_0/stage/lib" \
  -L"c:/deps/db-4.8.30.NC/build_unix" \
  -L"c:/deps/miniupnpc-1.8" \
