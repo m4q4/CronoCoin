@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About TestCoin</source>
+        <source>About CronoCoin</source>
         <translation>关于比特币</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;TestCoin&lt;/b&gt; version</source>
+        <source>&lt;b&gt;CronoCoin&lt;/b&gt; version</source>
         <translation>比特币客户端 版本</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The TestCoin developers</source>
+Copyright © 2014 The CronoCoin developers</source>
         <translation>版权所有 © 2009-2014 比特币Bitcoin开发组
 版权所有 © 2012-2014 新星币Novacoin开发组
-版权所有 © 2014 比特币TestCoin开发组</translation>
+版权所有 © 2014 比特币CronoCoin开发组</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,7 +65,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your TestCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your CronoCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>这是您用来接收支付的比特币地址列表。为不同的支付方建立不同的地址以便于了解支付来源。</translation>
     </message>
     <message>
@@ -80,7 +80,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a TestCoin address</source>
+        <source>Sign a message to prove you own a CronoCoin address</source>
         <translation>对信息进行签名以证明您对该比特币地址的所有权</translation>
     </message>
     <message>
@@ -95,7 +95,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified TestCoin address</source>
+        <source>Verify a message to ensure it was signed with a specified CronoCoin address</source>
         <translation>验证信息以保证其经过指定比特币地址的签名</translation>
     </message>
     <message>
@@ -263,7 +263,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>TestCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>CronoCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>比特币客户端即将关闭以完成加密过程。请记住，加密钱包并不能完全防止您的电子货币被入侵您计算机的木马软件盗窃。</translation>
     </message>
     <message>
@@ -377,7 +377,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about TestCoin</source>
+        <source>Show information about CronoCoin</source>
         <translation>显示关于比特币的信息</translation>
     </message>
     <message>
@@ -427,12 +427,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a TestCoin address</source>
+        <source>Send coins to a CronoCoin address</source>
         <translation>向指定的地址发送比特币</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for TestCoin</source>
+        <source>Modify configuration options for CronoCoin</source>
         <translation>更改设置选项</translation>
     </message>
     <message>
@@ -472,7 +472,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-202"/>
-        <source>TestCoin</source>
+        <source>CronoCoin</source>
         <translation>比特币</translation>
     </message>
     <message>
@@ -482,7 +482,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About TestCoin</source>
+        <source>&amp;About CronoCoin</source>
         <translation>关于比特币(&amp;A)</translation>
     </message>
     <message>
@@ -539,12 +539,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>TestCoin client</source>
+        <source>CronoCoin client</source>
         <translation>比特币客户端</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to TestCoin network</source>
+        <source>%n active connection(s) to CronoCoin network</source>
         <translation><numerusform>与比特币网络建立了 %n 个连接</numerusform></translation>
     </message>
     <message>
@@ -584,12 +584,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-312"/>
-        <source>About TestCoin card</source>
+        <source>About CronoCoin card</source>
         <translation>关于比特币卡</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about TestCoin card</source>
+        <source>Show information about CronoCoin card</source>
         <translation>显示关于比特币卡的信息</translation>
     </message>
     <message>
@@ -669,7 +669,7 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid TestCoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid CronoCoin address or malformed URI parameters.</source>
         <translation>无法解析URI：无效的比特币地址或错误的URI参数。</translation>
     </message>
     <message>
@@ -729,7 +729,7 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. TestCoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. CronoCoin can no longer continue safely and will quit.</source>
         <translation>发生严重错误，比特币客户端即将关闭。</translation>
     </message>
 </context>
@@ -1056,7 +1056,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid TestCoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid CronoCoin address.</source>
         <translation>“%1” 不是有效的比特币地址。</translation>
     </message>
     <message>
@@ -1075,8 +1075,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>TestCoin-Qt</source>
-        <translation>比特币客户端TestCoin-Qt</translation>
+        <source>CronoCoin-Qt</source>
+        <translation>比特币客户端CronoCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1148,12 +1148,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start TestCoin after logging in to the system.</source>
+        <source>Automatically start CronoCoin after logging in to the system.</source>
         <translation>开机自动启动比特币客户端</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start TestCoin on system login</source>
+        <source>&amp;Start CronoCoin on system login</source>
         <translation>开机时自动启动比特币客户端(&amp;S)</translation>
     </message>
     <message>
@@ -1173,7 +1173,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the TestCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the CronoCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>路由器自动打开比特币客户端端口。该功能仅在路由器开启UPnP支持时有效。</translation>
     </message>
     <message>
@@ -1183,7 +1183,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the TestCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the CronoCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>经SOCKS代理连接到比特币网络(例如使用Tor)</translation>
     </message>
     <message>
@@ -1258,7 +1258,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting TestCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting CronoCoin.</source>
         <translation>在此设置用户界面语言。重启比特币客户端后设置生效。</translation>
     </message>
     <message>
@@ -1273,7 +1273,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show TestCoin addresses in the transaction list or not.</source>
+        <source>Whether to show CronoCoin addresses in the transaction list or not.</source>
         <translation>是否在交易列表中显示比特币地址</translation>
     </message>
     <message>
@@ -1320,7 +1320,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting TestCoin.</source>
+        <source>This setting will take effect after restarting CronoCoin.</source>
         <translation>重启客户端后设置生效</translation>
     </message>
     <message>
@@ -1339,7 +1339,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TestCoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CronoCoin network after a connection is established, but this process has not completed yet.</source>
         <translation>所显示的信息尚未更新，建立连接后钱包客户端会自动和网络进行同步，但目前该过程尚未完成。</translation>
     </message>
     <message>
@@ -1555,7 +1555,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the TestCoin-Qt help message to get a list with possible TestCoin command-line options.</source>
+        <source>Show the CronoCoin-Qt help message to get a list with possible CronoCoin command-line options.</source>
         <translation>显示关于命令行选项的帮助信息。</translation>
     </message>
     <message>
@@ -1575,12 +1575,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>TestCoin - Debug window</source>
+        <source>CronoCoin - Debug window</source>
         <translation>比特币客户端-调试窗口</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>TestCoin Core</source>
+        <source>CronoCoin Core</source>
         <translation>比特币核心进程</translation>
     </message>
     <message>
@@ -1590,7 +1590,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the TestCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the CronoCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>打开调试日志文件，对于较大的文件，这可能持续几秒钟。</translation>
     </message>
     <message>
@@ -1600,7 +1600,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the TestCoin RPC console.</source>
+        <source>Welcome to the CronoCoin RPC console.</source>
         <translation>欢迎使用比特币RPC控制台。</translation>
     </message>
     <message>
@@ -1759,8 +1759,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a TestCoin address (e.g. TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>输入比特币地址(例如：TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a CronoCoin address (e.g. CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>输入比特币地址(例如：CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1859,7 +1859,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid TestCoin address</source>
+        <source>WARNING: Invalid CronoCoin address</source>
         <translation>警告：无效的比特币地址</translation>
     </message>
     <message>
@@ -1903,8 +1903,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>收款人地址(例：TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to  (e.g. CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>收款人地址(例：CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1933,8 +1933,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a TestCoin address (e.g. TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>输入一个比特币地址 (例：TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a CronoCoin address (e.g. CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>输入一个比特币地址 (例：CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1957,8 +1957,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>用来签名该消息的地址(例： TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>用来签名该消息的地址(例： CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1994,7 +1994,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this TestCoin address</source>
+        <source>Sign the message to prove you own this CronoCoin address</source>
         <translation>对该消息进行签名以证明您对该比特币地址的所有权</translation>
     </message>
     <message>
@@ -2021,12 +2021,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>用来签名该消息的比特币地址(例： TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>用来签名该消息的比特币地址(例： CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified TestCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified CronoCoin address</source>
         <translation>确认该消息以保证它经由指定的比特币地址签名</translation>
     </message>
     <message>
@@ -2037,8 +2037,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a TestCoin address (e.g. TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>输入比特币地址(例： TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a CronoCoin address (e.g. CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>输入比特币地址(例： CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2047,7 +2047,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter TestCoin signature</source>
+        <source>Enter CronoCoin signature</source>
         <translation>输入比特币签名</translation>
     </message>
     <message>
@@ -2618,7 +2618,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>TestCoin version</source>
+        <source>CronoCoin version</source>
         <translation>比特币客户端 版本</translation>
     </message>
     <message>
@@ -2628,8 +2628,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or TestCoind</source>
-        <translation>向-server服务器或TestCoind发送命令</translation>
+        <source>Send command to -server or CronoCoind</source>
+        <translation>向-server服务器或CronoCoind发送命令</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2651,13 +2651,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: TestCoin.conf)</source>
-        <translation>指定配置文件(默认: TestCoin.conf)</translation>
+        <source>Specify configuration file (default: CronoCoin.conf)</source>
+        <translation>指定配置文件(默认: CronoCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: TestCoind.pid)</source>
-        <translation>指定pid文件(默认: TestCoind.pid)</translation>
+        <source>Specify pid file (default: CronoCoind.pid)</source>
+        <translation>指定pid文件(默认: CronoCoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2811,7 +2811,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong TestCoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CronoCoin will not work properly.</source>
         <translation>警告：请确认您计算机的本地时间。如果时钟错误，比特币客户端将不能正常工作。</translation>
     </message>
     <message>
@@ -3001,24 +3001,24 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=TestCoinrpc
+rpcuser=CronoCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;TestCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CronoCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, 必须在配置文件里设置rpc密码:
  %s
 建议使用如下的随机密码:
-rpcuser=TestCoinrpc
+rpcuser=CronoCoinrpc
 rpcpassword=%s
 (不需要记住该密码)
 用户名和密码不能重复。
 如果该文件不存在，请自行创建并设为用户本身只读权限。
 建议创建提示以监测可能的问题，如：
-alertnotify=echo %%s | mail -s &quot;TestCoin Alert&quot; admin@foo.com
+alertnotify=echo %%s | mail -s &quot;CronoCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3147,12 +3147,12 @@ alertnotify=echo %%s | mail -s &quot;TestCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  TestCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  CronoCoin is probably already running.</source>
         <translation>无法从数据目录 %s 获得锁定.  比特币客户端可能已在运行中.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>TestCoin</source>
+        <source>CronoCoin</source>
         <translation>比特币</translation>
     </message>
     <message>
@@ -3187,12 +3187,12 @@ alertnotify=echo %%s | mail -s &quot;TestCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of TestCoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of CronoCoin</source>
         <translation>wallet.dat 钱包文件加载出错：需要新版本的客户端</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart TestCoin to complete</source>
+        <source>Wallet needed to be rewritten: restart CronoCoin to complete</source>
         <translation>需要重写钱包，重启客户端以完成该操作。</translation>
     </message>
     <message>
@@ -3262,7 +3262,7 @@ alertnotify=echo %%s | mail -s &quot;TestCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. TestCoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. CronoCoin is probably already running.</source>
         <translation>无法绑定到该计算机上的 %s. 比特币客户端可能已在运行中。</translation>
     </message>
     <message>

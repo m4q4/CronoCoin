@@ -150,8 +150,8 @@ const char* GetOpName(opcodetype opcode)
     case OP_RETURN                 : return "OP_RETURN";
 
     // stack ops
-    case OP_TOALTSTACK             : return "OP_TOALTSTACK";
-    case OP_FROMALTSTACK           : return "OP_FROMALTSTACK";
+    case OP_TOALCROACK             : return "OP_TOALCROACK";
+    case OP_FROMALCROACK           : return "OP_FROMALCROACK";
     case OP_2DROP                  : return "OP_2DROP";
     case OP_2DUP                   : return "OP_2DUP";
     case OP_3DUP                   : return "OP_3DUP";
@@ -468,7 +468,7 @@ bool EvalScript(vector<vector<unsigned char> >& stack, const CScript& script, co
                 //
                 // Stack ops
                 //
-                case OP_TOALTSTACK:
+                case OP_TOALCROACK:
                 {
                     if (stack.size() < 1)
                         return false;
@@ -477,7 +477,7 @@ bool EvalScript(vector<vector<unsigned char> >& stack, const CScript& script, co
                 }
                 break;
 
-                case OP_FROMALTSTACK:
+                case OP_FROMALCROACK:
                 {
                     if (altstack.size() < 1)
                         return false;

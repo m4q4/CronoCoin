@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About TestCoin</source>
-        <translation>Über TestCoin</translation>
+        <source>About CronoCoin</source>
+        <translation>Über CronoCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;TestCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;TestCoin&lt;/b&gt; Version</translation>
+        <source>&lt;b&gt;CronoCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CronoCoin&lt;/b&gt; Version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The TestCoin developers</source>
+Copyright © 2014 The CronoCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -63,7 +63,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your TestCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your CronoCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -78,7 +78,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a TestCoin address</source>
+        <source>Sign a message to prove you own a CronoCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -93,7 +93,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified TestCoin address</source>
+        <source>Verify a message to ensure it was signed with a specified CronoCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -261,7 +261,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-58"/>
-        <source>TestCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>CronoCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -375,7 +375,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about TestCoin</source>
+        <source>Show information about CronoCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -425,12 +425,12 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a TestCoin address</source>
+        <source>Send coins to a CronoCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for TestCoin</source>
+        <source>Modify configuration options for CronoCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -470,7 +470,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-202"/>
-        <source>TestCoin</source>
+        <source>CronoCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -480,7 +480,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About TestCoin</source>
+        <source>&amp;About CronoCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -537,12 +537,12 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>TestCoin client</source>
+        <source>CronoCoin client</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to TestCoin network</source>
+        <source>%n active connection(s) to CronoCoin network</source>
         <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
@@ -582,12 +582,12 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-312"/>
-        <source>About TestCoin card</source>
+        <source>About CronoCoin card</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about TestCoin card</source>
+        <source>Show information about CronoCoin card</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -666,7 +666,7 @@ Adresse: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid TestCoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid CronoCoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -726,7 +726,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. TestCoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. CronoCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1046,8 +1046,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid TestCoin address.</source>
-        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige TestCoin Adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CronoCoin address.</source>
+        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige CronoCoin Adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1065,7 +1065,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>TestCoin-Qt</source>
+        <source>CronoCoin-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1138,13 +1138,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start TestCoin after logging in to the system.</source>
-        <translation>Automatisch TestCoin starten beim Einloggen in das System.</translation>
+        <source>Automatically start CronoCoin after logging in to the system.</source>
+        <translation>Automatisch CronoCoin starten beim Einloggen in das System.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start TestCoin on system login</source>
-        <translation>&amp;Starte TestCoin bei Systemstart</translation>
+        <source>&amp;Start CronoCoin on system login</source>
+        <translation>&amp;Starte CronoCoin bei Systemstart</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1163,8 +1163,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the TestCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisch den TestCoin client port auf dem Router öffnen. Das funktioniert nur wenn der Router UPnP unterstützt und UPnP aktiviert ist.</translation>
+        <source>Automatically open the CronoCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisch den CronoCoin client port auf dem Router öffnen. Das funktioniert nur wenn der Router UPnP unterstützt und UPnP aktiviert ist.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1173,7 +1173,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the TestCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the CronoCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1248,7 +1248,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting TestCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting CronoCoin.</source>
         <translation>Die Sprache der GUI kann hier verändert werden. Die Einstellung wird nach einem Neustart übernommen.</translation>
     </message>
     <message>
@@ -1263,8 +1263,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show TestCoin addresses in the transaction list or not.</source>
-        <translation>TestCoin Adressen in der Überweisung anzeigen oder nicht.</translation>
+        <source>Whether to show CronoCoin addresses in the transaction list or not.</source>
+        <translation>CronoCoin Adressen in der Überweisung anzeigen oder nicht.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1310,7 +1310,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting TestCoin.</source>
+        <source>This setting will take effect after restarting CronoCoin.</source>
         <translation>Diese Einstellung wird nach einem Neustart übernommen.</translation>
     </message>
     <message>
@@ -1329,8 +1329,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TestCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigte Information kann falsch sein. Die Brieftasche synchronisiert automatisch mit dem TestCoin Netzwerk nachdem eine Verbindung zustande gekommen ist, aber dieser Prozess ist nicht abgeschlossen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CronoCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Die angezeigte Information kann falsch sein. Die Brieftasche synchronisiert automatisch mit dem CronoCoin Netzwerk nachdem eine Verbindung zustande gekommen ist, aber dieser Prozess ist nicht abgeschlossen.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1545,7 +1545,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the TestCoin-Qt help message to get a list with possible TestCoin command-line options.</source>
+        <source>Show the CronoCoin-Qt help message to get a list with possible CronoCoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1565,13 +1565,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>TestCoin - Debug window</source>
-        <translation>TestCoin - Debug Fenster</translation>
+        <source>CronoCoin - Debug window</source>
+        <translation>CronoCoin - Debug Fenster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>TestCoin Core</source>
-        <translation>TestCoin Kern</translation>
+        <source>CronoCoin Core</source>
+        <translation>CronoCoin Kern</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1580,7 +1580,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the TestCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the CronoCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1590,7 +1590,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the TestCoin RPC console.</source>
+        <source>Welcome to the CronoCoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1749,7 +1749,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a TestCoin address (e.g. TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a CronoCoin address (e.g. CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1849,7 +1849,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid TestCoin address</source>
+        <source>WARNING: Invalid CronoCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1893,8 +1893,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Empfängeradresse (z.b. TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to  (e.g. CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Empfängeradresse (z.b. CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1923,7 +1923,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a TestCoin address (e.g. TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a CronoCoin address (e.g. CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1947,7 +1947,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>The address to sign the message with (e.g. CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1984,8 +1984,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this TestCoin address</source>
-        <translation>Signiere die Nachricht um zu beweisen das du Besitzer dieser TestCoin Adresse bist.</translation>
+        <source>Sign the message to prove you own this CronoCoin address</source>
+        <translation>Signiere die Nachricht um zu beweisen das du Besitzer dieser CronoCoin Adresse bist.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2011,12 +2011,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>The address the message was signed with (e.g. CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified TestCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified CronoCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2027,7 +2027,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a TestCoin address (e.g. TestCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a CronoCoin address (e.g. CronoCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2037,8 +2037,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter TestCoin signature</source>
-        <translation>TestCoin Signatur eingeben</translation>
+        <source>Enter CronoCoin signature</source>
+        <translation>CronoCoin Signatur eingeben</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2608,7 +2608,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>TestCoin version</source>
+        <source>CronoCoin version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2618,8 +2618,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or TestCoind</source>
-        <translation>Kommando versenden an -server oder TestCoind </translation>
+        <source>Send command to -server or CronoCoind</source>
+        <translation>Kommando versenden an -server oder CronoCoind </translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2638,13 +2638,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: TestCoin.conf)</source>
-        <translation>Konfigurationsdatei angeben (Standard: TestCoin.conf)</translation>
+        <source>Specify configuration file (default: CronoCoin.conf)</source>
+        <translation>Konfigurationsdatei angeben (Standard: CronoCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: TestCoind.pid)</source>
-        <translation>PID Datei angeben (Standard: TestCoin.pid)</translation>
+        <source>Specify pid file (default: CronoCoind.pid)</source>
+        <translation>PID Datei angeben (Standard: CronoCoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2793,8 +2793,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong TestCoin will not work properly.</source>
-        <translation>Wanung : Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist TestCoin nicht richtig funktionieren.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CronoCoin will not work properly.</source>
+        <translation>Wanung : Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist CronoCoin nicht richtig funktionieren.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2982,13 +2982,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=TestCoinrpc
+rpcuser=CronoCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;TestCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CronoCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -3114,13 +3114,13 @@ for example: alertnotify=echo %%s | mail -s &quot;TestCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  TestCoin is probably already running.</source>
-        <translation>Kann das Verzeichniss nicht einbinden %s. TestCoin Brieftasche läuft wahrscheinlich bereits.</translation>
+        <source>Cannot obtain a lock on data directory %s.  CronoCoin is probably already running.</source>
+        <translation>Kann das Verzeichniss nicht einbinden %s. CronoCoin Brieftasche läuft wahrscheinlich bereits.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>TestCoin</source>
-        <translation>TestCoin</translation>
+        <source>CronoCoin</source>
+        <translation>CronoCoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3154,13 +3154,13 @@ for example: alertnotify=echo %%s | mail -s &quot;TestCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of TestCoin</source>
-        <translation>Fehler beim Laden wallet.dat. Brieftasche benötigt neuere Version der TestCoin Brieftasche.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CronoCoin</source>
+        <translation>Fehler beim Laden wallet.dat. Brieftasche benötigt neuere Version der CronoCoin Brieftasche.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart TestCoin to complete</source>
-        <translation>Brieftasche muss neu geschrieben werden. Starte die TestCoin Brieftasche neu zum komplettieren.</translation>
+        <source>Wallet needed to be rewritten: restart CronoCoin to complete</source>
+        <translation>Brieftasche muss neu geschrieben werden. Starte die CronoCoin Brieftasche neu zum komplettieren.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3229,7 +3229,7 @@ for example: alertnotify=echo %%s | mail -s &quot;TestCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. TestCoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. CronoCoin is probably already running.</source>
         <translation>Fehler beim anbinden %s auf diesem Computer. BlaclCoin Client läuft wahrscheinlich bereits.</translation>
     </message>
     <message>

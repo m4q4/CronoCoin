@@ -521,7 +521,7 @@ void StakeMiner(CWallet *pwallet)
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
 
     // Make this thread recognisable as the mining thread
-    RenameThread("TestCoin-miner");
+    RenameThread("CronoCoin-miner");
 
     bool fTryToSync = true;
 

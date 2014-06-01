@@ -30,7 +30,7 @@
 #include "netbase.h" // for AddTimeData
 
 // to obtain PRId64 on some old systems
-#define __STDC_FORMAT_MATSTS 1
+#define __STDC_FORMAT_MACROS 1
 
 #include <stdint.h>
 #include <inttypes.h>
